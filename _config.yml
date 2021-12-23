@@ -8,14 +8,15 @@ version: 2
 # Personal info
 name: Ahmad Ateya
 title: SW Engineer
-email: brett.h@email.co.uk
+email: ahmad.m.ateya@gmail.com
+phone: 01150326768
 website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
+#twitter_username: facespics
 github_username:  sproogen
 linkedin_username: jameswgrant
 # stackoverflow_username: "00000001"
@@ -30,10 +31,10 @@ linkedin_username: jameswgrant
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://ahmadateya.me
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://ahmadateya.me
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -47,10 +48,10 @@ additional_links:
 # About Section
 # about_title: About Me
 #about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+#about_content: | # this will include new lines to allow paragraphs
+#  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+#
+#  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
@@ -100,20 +101,24 @@ content:
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-  - title: A Little More About Me
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - ![Golang](https://img.shields.io/badge/-Golang-gray?style=flat-square&logo=Go)
+      - ![PHP](https://img.shields.io/badge/-PHP-00599C?style=flat-square&logo=php)
+      - ![Linux](https://img.shields.io/badge/-Linux-gray?style=flat-square&logo=linux)
+      - ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql)
+      - ![MySQL](https://img.shields.io/badge/-MySQL-gray?style=flat-square&logo=mysql)
+       ![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker) ![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws) ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-gray?style=flat-square&logo=kubernetes)
+  
 
-      Look at this cool image  
+  Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
-footer_show_references: true
+#footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
