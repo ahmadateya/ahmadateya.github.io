@@ -91,15 +91,15 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Al-Azhar University
+        caption: Graduated in 2022
+        sub_title: BSc Computer Engineering
+#        quote: >
+#          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During study time I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I spent a some of my free time as a committee member of the **AZEX** taking on roles such as *Technical* and *Vice-President*.
 
   - title: Skills
     layout: text
@@ -112,6 +112,8 @@ content:
       - ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql)
       - ![MySQL](https://img.shields.io/badge/-MySQL-gray?style=flat-square&logo=mysql)
       - ![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker) ![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws) ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-gray?style=flat-square&logo=kubernetes)
+      <img src="https://img.shields.io/badge/-Golang-gray?style=flat-square&logo=Go" alt="drawing" width="200" height="500"/>
+
 
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
