@@ -118,7 +118,7 @@ content:
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
-#footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
