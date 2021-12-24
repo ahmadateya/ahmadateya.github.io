@@ -115,10 +115,10 @@ content:
         description: I spent a lot of my free time as a committee member of the <mark>AZEC</mark> taking on roles such as *Technical Instructor* and *Projects Mentor*.
 
       - layout: left
-          title: Self-taught
-          caption: all the time
-          sub_title: Computer Engineering
-          quote: I am a strong believer in the Self-study learning method.
+        title: Self-taught
+        caption: all the time
+        sub_title: Computer Engineering
+        quote: I am a strong believer in the Self-study learning method.
 
   - title: Skills & Technologies
     layout: skills
