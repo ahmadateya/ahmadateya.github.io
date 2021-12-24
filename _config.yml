@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: ahmadateya/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -7,18 +7,18 @@ version: 2
 
 # Personal info
 name: Ahmad Ateya
-title: SW Engineer
+title: Software Engineer
 email: ahmad.m.ateya@gmail.com
 phone: 01150326768
-website: www.github.com/sproogen/resume-theme
+website: ahmadateya.me
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 #twitter_username: facespics
-github_username:  sproogen
-linkedin_username: jameswgrant
+github_username:  ahmadateya
+linkedin_username: ahmadateya
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -31,10 +31,16 @@ linkedin_username: jameswgrant
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://ahmadateya.me
+additional_links:
+- title: Pdf Download
+  icon: far fa-file-pdf
+  url: https://github.com/ahmadateya/Resume/raw/main/pdf/cv.pdf
+- title: Send mail to ahmad.m.ateya@gmail.com
+  icon: fas fa-envelope
+  url: mailto:ahmad.m.ateya@gmail.com
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://ahmadateya.me
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,12 +52,12 @@ linkedin_username: jameswgrant
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-#about_profile_image: images/profile.jpg
-#about_content: | # this will include new lines to allow paragraphs
-#  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-#
-#  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+ about_title: About Me
+about_profile_image: images/profile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+
+  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
@@ -118,6 +124,19 @@ content:
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
+  - title: Skills
+    layout: skills
+    content:
+      - title: Python/JavaScript/HTML5/CSS
+        level: 7 #MAX 10 MIN 0
+      - title: Machine Learning Classification/Networks/Git/GitHub/Linux/SQL/Flask
+        level: 6
+      - title: C/C++/Matlab/Networks/Penetration Testing
+        level: 5
+      - title: PHP/Docker/ReactJS
+        level: 4
+      - title: WordPress/Ruby
+        level: 3
 # Footer
 footer_show_references: false
 # references_title: References on request (Override references text)

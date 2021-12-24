@@ -1,0 +1,14 @@
+.level-bar {
+    height: 20px;
+    width: 500px;
+    background: rgb(53, 53, 53);
+    display: inline-block;
+    border-radius: 7px;
+    margin: 1em;
+}
+.level-bar-inner {
+    height: 20px;
+    display: inline-block;
+    background: lighten(rgb(255, 255, 255), 15%);
+    border-radius: 7px;
+}
