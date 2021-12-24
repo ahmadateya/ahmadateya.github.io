@@ -8,8 +8,9 @@ version: 2
 # Personal info
 name: Ahmad Ateya
 title: Software Engineer
-email: ahmad.m.ateya@gmail.com
+Email: ahmad.m.ateya@gmail.com
 phone: 01150326768
+Location: Cairo - Egypt
 #website: ahmadateya.me
 
 # Dark Mode (true/false/never)
@@ -55,7 +56,7 @@ about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Ahmad Ateya a Software Engineer with +2 Years of Experience, Most of time I am in the Backend, DevOps, and Cloud.
 
-   I am most intersted in: <mark>AWS</mark>, <mark>Web3</mark>, and <mark>Cloud Native Apps</mark>
+   I am most intersted in: <mark>AWS</mark> <mark>Web3</mark> and <mark>Cloud Native Apps</mark>
 
 content:
   - title: Work Experience # Title for the section
@@ -72,7 +73,7 @@ content:
         quote: >
           the tech branch to an existed schooling company located in Saudi Arabia, making the needed digital transformation.
         description: | # this will include new lines to allow paragraphs
-          Collected a lot of experience in dealing with big structures (very near to microservices structures). Having a chance to enter the DevOps area and getting a hands-on experience <mark>AWS</mark> and <mark>k8s</mark>, and <mark>Terraform</mark> besides my primary work as a Backend Developer.
+          Collected a lot of experience in dealing with big structures (very near to microservices structures). Having a chance to enter the DevOps area and getting a hands-on experience <mark>AWS</mark> <mark>k8s</mark> and <mark>Terraform</mark> besides my primary work as a Backend Developer.
 
       - layout: left
         title: Kite Agency
@@ -112,7 +113,7 @@ content:
         title: Al-Azhar University
         caption: Graduating in 2022
         sub_title: Computer Engineering
-        description: I spent a lot of my free time as a committee member of the <mark>AZEC</mark> taking on roles such as *Technical Instructor* and *Projects Mentor*.
+        description: I spent a lot of my free time as a committee member of the <mark>AZEX</mark> taking on roles such as *Technical Instructor* and *Projects Mentor*.
 
       - layout: left
         title: Self-taught
