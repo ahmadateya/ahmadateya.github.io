@@ -1,19 +1,15 @@
-body {
-	background: linear-gradient(-45deg,#000000,#25252565,#3a3a3a,#0e0606,#25252565,#000000dc,#201e1e,#25252583);
-	background-size:  400% 400%;
-	//animation: gradient 35s ease infinite;
+.dark {
+	background-color: #222;
 	color: #e6e6e6;
-	text-shadow: 6px 4px 9px rgba(5,3,3,0.76);
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
+.dark {
+	mark {
+		color: #222;
+		background-color: #e6e6e6;
 	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
+
+	a {
+		color: #477dca;
 	}
 }
