@@ -7,8 +7,9 @@
     margin: 1em;
 }
 .level-bar-inner {
-    height: 20px;
+    height: 15px;
+    background: #ffffff;
     display: inline-block;
-    background: lighten(rgb(255, 255, 255), 15%);
+    //background: lighten(rgb(255, 255, 255), 15%);
     border-radius: 7px;
 }

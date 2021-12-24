@@ -10,7 +10,7 @@ name: Ahmad Ateya
 title: Software Engineer
 email: ahmad.m.ateya@gmail.com
 phone: 01150326768
-website: ahmadateya.me
+#website: ahmadateya.me
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -34,10 +34,14 @@ linkedin_username: ahmadateya
 additional_links:
   - title: Pdf Download
     icon: far fa-file-pdf
-    url: https://github.com/Haki-Malai/Resume/raw/main/pdf/cv.pdf
+    url: #
   - title: Send mail to ahmad.m.ateya@gmail.com
     icon: fas fa-envelope
     url: mailto:ahmad.m.ateya@gmail.com
+  - title: Hackerrank
+    icon: fab fa-hackerrank
+    url: #
+
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -49,16 +53,44 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Ahmad Ateya a Software Engineer with +2 Years of Experience, Most of time I am in the Backend, DevOps, and Cloud.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+   I am most intersted in: <mark>AWS</mark>, <mark>Web3</mark>, and <mark>Cloud Native Apps</mark>
 
 content:
+  - title: Work Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Our Education
+        link: https://our-education.net/
+        link_text: our-education.net
+        sub_title: Software Engineer
+        caption: >
+          October 2021 - Present (Part-time)
+          June 2020 - October 2021 (Full-time)
+        quote: >
+          the tech branch to an existed schooling company located in Saudi Arabia, making the needed digital transformation.
+        description: | # this will include new lines to allow paragraphs
+          Collected a lot of experience in dealing with big structures (very near to microservices structures). Having a chance to enter the DevOps area and getting a hands-on experience <mark>AWS</mark> and <mark>k8s</mark>, and <mark>Terraform</mark> besides my primary work as a Backend Developer.
+
+      - layout: left
+        title: Kite Agency
+        link: https://www.kite.agency/
+        link_text: kite.agency
+        sub_title: Backend Developer
+        caption: >
+          October 2019 - May 2020 (Full-time)
+          June 2019 - September 2019 (Internship)
+        quote: Software House.
+        description: | # this will include new lines to allow paragraphs
+          First got an internship for 3 months and then joined the backend team participated in building projects like [Ta3lom](https://ta3lom.com/ar/).
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-      - title: Sudoku Solver
+      - title: Ta3lom
         link: https://github.com/Haki-Malai/sudoku-smart-solver
         link_text: Project Website
         additional_links:
@@ -73,147 +105,37 @@ content:
         description: | # this will include new lines to allow paragraphs
           This project was done with the purpose of me learning some react-js, php and java. Te a sudoku solver was chosen from me because it may sound simple but in reality if someone has or wants to be able to solve a sudoku really fast it is necessery to use double-linked lists as with backtracking very often it is needed a big number of recursions for the solution of the problem. Also, it is necessery to have a server that solver the problem as JavaScript has a limit on recursions that can occur, even if double linked lists will be used. This use of linked lists is called "Dancing Links".
 
-      - title: ''
-
-
-      - layout: top-middle
-      - title: Identifying Covid-19 infection cases in Twitter text-A Machine Learning Approach
-        link: https://github.com/Haki-Malai/Covid-19-Tweet-Classifier
-        link_text: Project Website
-        additional_links:
-          - title:  Haki-Malai/Covid-19-Tweet-Classifier
-            icon: fab fa-github
-            url: github.com/Haki-Malai/Covid-19-Tweet-Classifier
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This project was almost published as a scientific paper but due to cooperation issues i had to cancel it.
-        description: | # this will include new lines to allow paragraphs
-          This project was made for the course called "Language Technology". The main idea behind the work described is that social media are able to provide large datasets which can be helpful in identifying certain patterns that may occur in social media text, and in helping to automatically reveal cases of virus infections. My constribution to this project was:
-          - Collected Tweets and assign then to my associates so they label them as true or false
-          - Used SMOTE to bring balance dataset
-          - Applied machine learning algoriths on the data
-          - Created a bidirectional recurrent neural network
-          - Trained the bidirectional recurrent neural network using 10-fold cross validation
-          - Created the GitHub repository
-      - title: ''
-
-      - title: Pac-Man JavaScript
-        link: https://github.com/Haki-Malai/Games/tree/main/Pac-Man%20JavaScript
-        link_text: Github Link
-        additional_links:
-          - title:  Haki-Malai/Games/Pac-Man JavaScript
-            icon: fab fa-github
-            url: github.com/Haki-Malai/Games/tree/main/Pac-Man%20JavaScript
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          The idea was to learn through this project but the result was amazing.
-        description: | # this will include new lines to allow paragraphs
-          This project was made for the course called "Entertainment Technology Software and Virtual Worlds". We were asked to build any game we like and i choose to implement Pac-Man using Vanilla JavaScript in order to master the fundumentals of HTML5, CSS and JavaScript. I am very proud of the result as it is not a casual Pac-Man implementation. I have even managed to sell a version of this game on fiverr.com.
-      - title: ''
-
-      - title: nn_audio
-        link: https://github.com/Haki-Malai/nn_audio
-        link_text: Github Link
-        additional_links:
-          - title:  Haki-Malai/nn_audio
-            icon: fab fa-github
-            url: github.com/Haki-Malai/nn_audio
-        quote: >
-          A simple script for everyone to make his own audio classification model.
-        description: | # this will include new lines to allow paragraphs
-          This project was made for the course called "Speech and Audio Processing".
-      - title: ''
-
-      - title: Other JavaScript Games
-        link: https://github.com/Haki-Malai/Games
-        link_text: Github Link
-        additional_links:
-          - title:  Haki-Malai/Games
-            icon: fab fa-github
-            url: github.com/Haki-Malai/Games
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          A collection of games using HTML5, CSS and Javascript
-        description: | # this will include new lines to allow paragraphs
-          Some of these were made for clients on fiverr and have mobile versions. Some of them were sudoku variations and tetris.
-      - title: ''
-
-      - title: Simple TCP-IP Chat
-        link: https://github.com/Haki-Malai/Twisted-Simple-Tcp-Chat
-        link_text: Github Link
-        additional_links:
-          - title:  Haki-Malai/Twisted-Simple-Tcp-Chat
-            icon: fab fa-github
-            url: github.com/Haki-Malai/Twisted-Simple-Tcp-Chat
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          In my attemp to make an online rock, paper, scissors game i also created a group chat.
-        description: | # this will include new lines to allow paragraphs
-          This is a classic server and client implimentation using python and a library called "Twisted". Everyone that connects to the server receives every message send in it, so it basically is a big group chat. Messages are being send and received through the commant line.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Freelancing on Fiverr
-        link: fiverr.com
-        # link_text: boringcompany.com
-        sub_title: Freelancer
-        caption: November 2020 - Present
-        quote: >
-          2d game development for desktop and mobile and machine learning applications.
-        description: | # this will include new lines to allow paragraphs
-          Collected a lot of experience on dealing with clients and giving them what they ask for on a deadline. Helped me to maintain my skillset and make some side money.
-
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Ionian University
-        caption: 2017 - 2021
-        sub_title: Department of Informatics
-        quote: >
-          The Ionian University (Greek: Iόνιο Πανεπιστήμιο) is a university located in the Ionian Islands (region), Greece. It is one of the newest institutions of Higher Education in Greece, along with the University of the Aegean and the University of Thessaly.
-        # description: | # this will include new lines to allow paragraphs
-        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Al-Azhar University
+        caption: Graduating in 2022
+        sub_title: Computer Engineering
+        description: I spent a lot of my free time as a committee member of the <mark>AZEC</mark> taking on roles such as *Technical Instructor* and *Projects Mentor*.
 
-        #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-  - title: Skills
+      - layout: left
+          title: Self-taught
+          caption: all the time
+          sub_title: Computer Engineering
+          quote: I am a strong believer in the Self-study learning method.
+
+  - title: Skills & Technologies
     layout: skills
     content:
-      - title: Python/JavaScript/HTML5/CSS
-        level: 7 #MAX 10 MIN 0
-      - title: Machine Learning Classification/Networks/Git/GitHub/Linux/SQL/Flask
-        level: 6
-      - title: C/C++/Matlab/Networks/Penetration Testing
+      - title: Backend Development Laravel-PHP / Mysql / Postgresql
+        level: 8
+      - title: Golang / Linux / SQL / Git
+        level: 7
+      - title: DevOps & Deployment Docker / Nginx
         level: 5
-      - title: PHP/Docker/ReactJS
+      - title: Cloud & Infrastructure AWS / Terraform / k8s
         level: 4
-      - title: WordPress/Ruby
-        level: 3
-  - title: A Little More About Me
-    layout: text
-    content: | # This will include new lines to allow paragraphs
-      Alongside my interests in web and software developing some of my other interests and hobbies are:
-      - Lifting weights
-      - Riding the bike
-      - Hanging out with friends
-      - Playing video games
-      - Cooking
-      - Studying and playing chess
-      - Listening to music
+      - title: Other Technolgies WordPress / VueJS / NuxtJS
+        level: no-level
 
 # Footer
 footer_show_references: false
-# References_title: References on request (Override references text)
 
 # Build settings
 remote_theme: ahmadateya/ahmadateya.github.io
