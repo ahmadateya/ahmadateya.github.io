@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: ahmadateya/ahmadateya.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -216,7 +216,7 @@ footer_show_references: false
 # References_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-
+remote_theme: ahmadateya/ahmadateya.github.io
 
 sass:
   sass_dir: _sass
