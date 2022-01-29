@@ -6,10 +6,10 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Ahmad Ateya
+name: Ahmad Ateya (this website is under construction)
 title: Software Engineer
 email: ahmad.m.ateya@gmail.com
-phone: 01150326768
+phone: +201150326768
 Location: Cairo - Egypt
 #website: ahmadateya.me
 
@@ -56,7 +56,7 @@ about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Ahmad Ateya a Software Engineer with +2 Years of Experience, Most of time I am in the Backend, DevOps, and Cloud.
 
-   I am most intersted in: <mark>AWS</mark> <mark>Web3</mark> and <mark>Cloud Native Apps</mark>
+   I am most intersted in: <mark>SW Engineering</mark> <mark>AWS</mark> and <mark>Cloud Native Apps</mark>
 
 content:
   - title: Work Experience # Title for the section
