@@ -11,7 +11,7 @@ tags:
   - [nginx, devops, load-balancer]
 excerpt: ""
 header:
-  overlay_image: /assets/tty/tty_unix.png
+  overlay_image: /assets/images/nginx-load-balancing/nginx-load-balancer.png
 ---
 Nginx is a popular open-source web server software, that can be used for web serving, reverse proxying, caching, load balancing, media streaming, and more!
 
