@@ -25,7 +25,7 @@ url                      : "https://ahmadateya.github.io/"
 enforce_ssl              : ahmadateya.github.io
 baseurl                  : "/"
 repository               : "ahmadateya/ahmadateya.github.io"
-teaser                   : "/assets/images/thumbs/01.jpg"
+# teaser                   : "/assets/images/thumbs/01.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -118,6 +118,7 @@ exclude:
   - README
   - tmp
   - old-site # ignore my old website folder
+  - resume
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
