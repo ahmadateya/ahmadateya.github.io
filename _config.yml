@@ -21,8 +21,8 @@ title                    : "Ahmad Ateya"
 title_separator          : "-"
 name                     : "Ahmad Ateya"
 description              : "Software Engineer."
-url                      : "https://ahmadateya.github.io/"
-enforce_ssl              : ahmadateya.github.io
+url                      : "https://ahmadateya.com"
+enforce_ssl              : ahmadateya.com
 baseurl                  : "/"
 repository               : "ahmadateya/ahmadateya.github.io"
 # teaser                   : "/assets/images/thumbs/01.jpg"
