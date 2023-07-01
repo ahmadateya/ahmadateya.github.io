@@ -1,22 +1,79 @@
 ---
-layout: archive
+layout: custom-home
 ---
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
 
-{{ content }}
+<div class="archive">
+  <!-- ============= Author details Section ==============  -->
+  <div class="home__author__profile" itemtype="https://schema.org/Person">
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+    {% if author.avatar %}
+    <div class="home__author__avatar">
+      {% if author.home %}
+      <a href="{{ author.home | relative_url }}">
+        <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image">
+      </a>
+      {% else %}
+      <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image">
+      {% endif %}
+    </div>
+    {% endif %}
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+    <div class="home__author__content">
+      {% if author.home %}
+      <a href="{{ author.home | relative_url }}">
+        <h3 class="home__author__name" itemprop="name">{{ author.name }}</h3>
+      </a>
+      {% else %}
+      <h3 class="home__author__name" itemprop="name">{{ author.name }}</h3>
+      {% endif %}
+      {% if author.extended_bio %}
+      <div class="home__author__bio" itemprop="description">
+        {{ author.extended_bio | markdownify }}
+      </div>
+      {% endif %}
+    </div>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
+    <div class="home__author__urls-wrapper">
+
+      <!-- Follow -->
+      <!-- <button class="btn btn--inverse">
+        {{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow"}}
+      </button> -->
+
+      <!-- Social Media links -->
+      <!-- <ul class="home__author__urls social-icons">
+        {% include author-profile-social-media.html %}
+      </ul> -->
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- ============= Recent Posts Section ==============  -->
+  <div>
+    <h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
+
+    {% if paginator %}
+    {% assign posts = paginator.posts %}
+    {% else %}
+    {% assign posts = site.posts %}
+    {% endif %}
+
+    {% assign entries_layout = page.entries_layout | default: 'list' %}
+    <div class="entries-{{ entries_layout }}">
+      {% for post in posts %}
+      {% include archive-single.html type=entries_layout %}
+      {% endfor %}
+    </div>
+
+    {% include paginator.html %}
+  </div>
 </div>
-
-{% include paginator.html %}

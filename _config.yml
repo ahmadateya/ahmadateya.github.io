@@ -81,6 +81,7 @@ author:
   name             : "Ahmad Ateya"
   avatar           : "/assets/images/profile.jpeg"
   bio              : "Software Engineer."
+  extended_bio     : "Software Engineer With Experience in Devops and SRE."
   location         : "Cairo, Egypt"
   email            : ahmad.m.ateya@gmail.com
   github           : ahmadateya

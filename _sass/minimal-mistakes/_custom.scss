@@ -1,0 +1,178 @@
+/*
+   Author profile and links
+   ========================================================================== */
+.home__author__profile {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.home__author__avatar {
+    img {
+        border-radius: 50%;
+        width: 40%;
+        height: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.home__author__content {
+    display: block;
+    padding-left: 15px;
+    padding-right: 25px;
+    line-height: 1;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.home__author__name {
+    margin: auto;
+}
+
+.home__author__bio {
+    margin: auto;
+    display: block;
+}
+
+// .home__author__urls-wrapper {
+//     position: relative;
+//     display: table-cell;
+//     vertical-align: middle;
+//     font-family: $sans-serif;
+//     z-index: 20;
+//     cursor: pointer;
+
+//     li:last-child {
+//         a {
+//             margin-bottom: 0;
+//         }
+//     }
+
+//     .home__author__urls {
+//         span.label {
+//             padding-left: 5px;
+//         }
+//     }
+
+//     @include breakpoint($large) {
+//         display: block;
+//     }
+
+//     button {
+//         position: relative;
+//         margin-bottom: 0;
+
+//         &:before {
+//             @supports (pointer-events: none) {
+//                 content: '';
+//                 position: fixed;
+//                 top: 0;
+//                 left: 0;
+//                 width: 100%;
+//                 height: 100%;
+//                 pointer-events: none;
+//             }
+//         }
+
+//         &.open {
+//             &:before {
+//                 pointer-events: auto;
+//             }
+//         }
+
+//         @include breakpoint($large) {
+//             display: none;
+//         }
+//     }
+// }
+
+// .home__author__urls {
+//     display: none;
+//     position: absolute;
+//     right: 0;
+//     margin-top: 15px;
+//     padding: 10px;
+//     list-style-type: none;
+//     border: 1px solid $border-color;
+//     border-radius: $border-radius;
+//     background: $background-color;
+//     box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+//     cursor: default;
+
+//     &.is--visible {
+//         display: block;
+//     }
+
+//     @include breakpoint($large) {
+//         display: block;
+//         position: relative;
+//         margin: 0;
+//         padding: 0;
+//         border: 0;
+//         background: transparent;
+//         box-shadow: none;
+//     }
+
+//     &:before {
+//         display: block;
+//         content: "";
+//         position: absolute;
+//         top: -11px;
+//         left: calc(50% - 10px);
+//         width: 0;
+//         border-style: solid;
+//         border-width: 0 10px 10px;
+//         border-color: $border-color transparent;
+//         z-index: 0;
+
+//         @include breakpoint($large) {
+//             display: none;
+//         }
+//     }
+
+//     &:after {
+//         display: block;
+//         content: "";
+//         position: absolute;
+//         top: -10px;
+//         left: calc(50% - 10px);
+//         width: 0;
+//         border-style: solid;
+//         border-width: 0 10px 10px;
+//         border-color: $background-color transparent;
+//         z-index: 1;
+
+//         @include breakpoint($large) {
+//             display: none;
+//         }
+//     }
+
+//     ul {
+//         padding: 10px;
+//         list-style-type: none;
+//     }
+
+//     li {
+//         white-space: nowrap;
+//     }
+
+//     a {
+//         display: block;
+//         margin-bottom: 5px;
+//         padding-right: 5px;
+//         padding-top: 2px;
+//         padding-bottom: 2px;
+//         color: inherit;
+//         font-size: $type-size-5;
+//         text-decoration: none;
+
+//         &:hover {
+//             text-decoration: underline;
+//         }
+//     }
+// }
