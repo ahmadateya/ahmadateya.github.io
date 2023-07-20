@@ -7,4 +7,3 @@
 ```bash 
 hugo server
 ```
-
