@@ -1,0 +1,66 @@
+baseURL: 'https://elghrib.github.io/'
+languageCode: 'en-us'
+title: 'elghrib'
+theme: 'hugo_papermod'
+
+params:
+  author: "Mustafa Abdallah El-Ghrib"
+  hideFooter: true
+  ShowCodeCopyButtons: true
+  DateFormat: "02 Jan 2006"
+
+  profileMode:
+    enabled: true
+    title: "Mustafa Abdallah El-Ghrib"
+    subtitle: "Software Engineer at Medicore Medical Services"
+    description: "Experienced Software Engineer with 2+ years of expertise in 
+    Software Development, Cloud, and DevOps. Possesses excellent collaboration skills, 
+    having worked with international teams, and has strong professional English 
+    communication skills. Takes ownership of tasks and projects, with a flexible 
+    approach to learning and applying new technologies."
+    imageUrl: "https://avatars.githubusercontent.com/u/20958970?v=4"
+    imageTitle: mstva_img
+    imageWidth: 120
+    imageHeight: 120
+
+  socialIcons:
+    - name: linkedin
+      url: "https://linkedin.com/in/elghrib"
+    - name: github
+      url: "https://github.com/elghrib"
+    - name: twitter
+      url: "https://twitter.com/elghrib_"
+    - name: dev
+      url: "https://dev.to/elghrib"
+    - name: medium
+      url: "https://medium.com/@elghrib"
+    - name: upwork
+      url: "https://www.upwork.com/freelancers/~01827d2d94f6d3cbd6"
+
+permalinks:
+  tech_writings: ':filename/'
+  arabic_writings: ':filename/'
+#  projects: 'projects/:filename/'
+#  hire_me: ':filename/'
+
+menu:
+  main:
+    - name: "tech_writings"
+      weight: 1
+      url: "tech_writings/"
+
+    - name: "كتاباتي_بالعربية"
+      weight: 2
+      url: "arabic_writings/"
+
+#    - name: "projects"
+#      weight: 3
+#      url: "projects/"
+#
+#    - name: "resume"
+#      weight: 4
+#      url: "resume/Mustafa_Abdallah_Resume.pdf"
+#
+#    - name: "hire_me"
+#      weight: 0
+#      url: "hire/"
